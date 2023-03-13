@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://secnod-ai.onrender.com', {
+    const response = await fetch('https://chatbot-m8ys.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
